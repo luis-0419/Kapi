@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #6a11cb 100%);
+}
+
+.card {
+  backdrop-filter: blur(6px);
+}
+
+.stat-box {
+  background: #f4f6fb;
+  border-radius: 0.75rem;
+  padding: 0.9rem 1rem;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.stat-value {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1e3c72;
+}
+
+.savings-box {
+  background: #f8f9fc;
+  border-radius: 0.75rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid #eef0f5;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #2a5298, #6a11cb);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #1e3c72, #530fa3);
+}
