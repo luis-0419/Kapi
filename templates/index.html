@@ -103,6 +103,11 @@
                   </thead>
                   <tbody>
                     <tr>
+                      <td class="fw-semibold">Capital restante</td>
+                      <td>${{ "{:,.2f}".format(resultado.saldo_actual) }}</td>
+                      <td>${{ "{:,.2f}".format(resultado.saldo_con_abono) }}</td>
+                    </tr>
+                    <tr>
                       <td class="fw-semibold">Plazo restante</td>
                       <td>{{ resultado.meses_sin_abono }} meses<br>
                           <span class="text-muted small">({{ "%.1f"|format(resultado.meses_sin_abono/12) }} años)</span></td>
